@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Caça-níquel do Tigre</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to bottom, #ffe0b2, #ffcc80);
+      text-align: center;
+    }
+    .slot-container {
+      background: #a00000;
+      border: 8px solid gold;
+      border-radius: 15px;
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px;
+    }
+    .reels {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .reel {
+      width: 100px;
+      height: 100px;
+      margin: 0 5px;
+      background: #fff7e6;
+      border: 2px solid #fdd835;
+      border-radius: 10px;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .controls {
+      margin-top: 15px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="slot-container">
+    <div class="reels">
+      <div class="reel">?</div>
+      <div class="reel">?</div>
+      <div class="reel">?</div>
+    </div>
+    <div class="controls">
+      <button onclick="alert('Girar ainda não programado')">Girar</button>
+    </div>
+  </div>
+</body>
+</html>
